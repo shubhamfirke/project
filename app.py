@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=['GET', 'POST'])
 def index():
-    return "ci cd pipeline has been established"
+    return "ci cd pipeline has been established, done"
 
 
 if __name__ == ('__main__'):
